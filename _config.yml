@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-company: Company Name
+company: Zach Dyer Design
 email: info@company.com
 description: >- # this means to ignore newlines until "baseurl:"
   We are a Company who does things a company does. We are proud to be
   partnered with other companies that do business with us. Our clients
   are happy with our services we have provided them. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://company.com" # the base hostname & protocol for your site, e.g. http://example.com 
+baseurl: /bootstrap-jekyll-template # the subpath of your site, e.g. /blog
+url: https://zachdyerdesign.com # the base hostname & protocol for your site, e.g. http://example.com 
 author: Zach Dyer
 
 # Build settings
