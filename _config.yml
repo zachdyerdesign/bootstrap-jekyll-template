@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+# Welcome to SolidCore!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -11,22 +11,11 @@
 # If you need help with YAML syntax, here are some quick references for you: 
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
-company: Zach Dyer Design
-email: info@company.com
-description: >- # this means to ignore newlines until "baseurl:"
-  We are a Company who does things a company does. We are proud to be
-  partnered with other companies that do business with us. Our clients
-  are happy with our services we have provided them. 
 baseurl: /bootstrap-jekyll-template # the subpath of your site, e.g. /blog
 url: https://zachdyerdesign.com # the base hostname & protocol for your site, e.g. http://example.com 
-author: Zach Dyer
+author: Zach Dyer Design
+
 
 # Build settings
 # theme: minima

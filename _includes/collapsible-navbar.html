@@ -1,0 +1,36 @@
+<header>
+    <div class="collapse{% if include.darkmode %} bg-dark{% else %} bg-light{% endif %}" id="navbarHeader">
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="{% if include.darkmode %}text-white{% endif %}">About Us</h4>
+            <p class="text-muted">{{ site.data.settings.description }}</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="{% if include.darkmode %}text-white{% endif %}">Main Menu</h4>
+            <ul class="list-unstyled">
+                {% for link in site.data.menus.main %}
+                <li><a href="{{site.baseurl}}{{link.permalink}}" class="{% if include.darkmode %}text-white{% endif %}">{{link.title}}</a></li>
+                {% endfor %}
+            </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="navbar{% if include.darkmode %} navbar-dark bg-dark box-shadow{% else %} navbar-light bg-light{% endif %}">
+        <div class="container d-flex justify-content-between">
+        <a href="{{ site.baseurl }}" class="navbar-brand d-flex align-items-center">
+            <div id="logo" class="mr-2">
+            {% if site.data.settings.icon %}
+            {% capture icon %}{{ site.data.settings.icon }}{% endcapture %}
+            {% include font-awesome.html icon=site.data.settings.icon %}
+            {% endif %}
+            {{site.data.settings.company}}
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+    </div>
+</header>

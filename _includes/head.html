@@ -2,19 +2,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{site.description}}">
+  <meta name="description" content="{{site.data.settings.description}}">
   <meta name="author" content="{{site.author}}">
   <link rel="icon" href="#">
 
   <title>{{ site.company }}</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.4.min.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/bootstrap.4.min.css" rel="stylesheet">
 
   <!-- Font Awesome core CSS -->
-  <link href="css/font-awesome/all.min.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/font-awesome/all.min.css" rel="stylesheet">
   {% if include.css %}
   <!-- Custom styles for this template -->
-  <link href="{{include.css}}" rel="stylesheet">
+  <link href="{{site.baseurl}}/{{include.css}}" rel="stylesheet">
   {% endif %}
 </head>
