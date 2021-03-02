@@ -3,9 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: portfolio
-permalink: /services/portfolio/
+permalink: /portfolio/
 jumbotron-heading: We Publish Your Portfolio
 jumbotron-lead: Your customers will be able to view your recent projects from any smart phone device.
+jumbotron-buttons:
+  - title: View Portfolio
+    url: '#portfolio'
+    type: btn-primary
 projects: 
   - thumbnail: /images/logo-design.jpg
     title: Illustration Logo
@@ -20,46 +24,28 @@ projects:
     category: Web Design
 
   - thumbnail: /images/neatnik-cleaning-logo.png
-    title: ""
+    title: Logo Design
     description: A new local small business needed a branding solution for their marketing. We designed a logo for them with a custom cartoon mascot. 
     url: "#"
     category: Logo Design
 
-  - thumbnail: holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Project 4 Thumbnail
-    title: "Project 4"
-    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-    url: "#"
-    category: Category 2
+  - thumbnail: /images/brikmasonry-website.png
+    title: Construction Website
+    description: A website design for a construction company that specialized in exotic brick laying.
+    url: https://zachdyerdesign.com/brikmasonry
+    category: Web Design
 
-  - thumbnail: holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Project 5 Thumbnail
-    title: "Project 5"
-    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-    url: "#"
-    category: Category 2
+  - thumbnail: /images/missouritile.png
+    title: Tile Company Website
+    description: A website design for a local tile company.
+    url: https://zachdyerdesign.com/missouritile
+    category: Web Design
 
-  - thumbnail: holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Project 6 Thumbnail
-    title: "Project 6"
-    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-    url: "#"
-    category: Category 3
-
-  - thumbnail: holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Project 7 Thumbnail
-    title: "Project 7"
-    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-    url: "#"
-    category: Category 3
-
-  - thumbnail: holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Project 8 Thumbnail
-    title: "Project 8"
-    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-    url: "#"
-    category: Category 3
-    
-  - thumbnail: holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Project 9 Thumbnail
-    title: "Project 9"
-    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-    url: "#"
-    category: Category 4
+  - thumbnail: /images/redbridgebluegrass-min.png
+    title: Redbridge Bluegrass Band
+    description: A website design for a bluegrass band in the Ozarks.
+    url: https://zachdyerdesign.com/redbridgebluegrass
+    category: Web Design
 ---
 
 We publish your project portfolio online so you can relax and let us do the heavy lifting. Have a new portfolio piece you want to add to your portfolio page? It's as easy as sending an email to us and we will quickly publish your new portfolio project to your portfolio page.

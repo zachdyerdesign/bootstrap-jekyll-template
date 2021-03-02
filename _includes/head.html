@@ -13,7 +13,12 @@
 
   <!-- Font Awesome core CSS -->
   <link href="{{site.baseurl}}/css/font-awesome/all.min.css" rel="stylesheet">
-  {% if include.css %}
+  <!--SolidCore CSS-->
+  <link href="{{site.baseurl}}/css/solidcore.css" rel="stylesheet">
+  {% if page.projects %}
+  <!-- Lightbox CSS -->
+  <link href="{{site.baseurl}}/css/lightbox.css" rel="stylesheet">
+  {% endif %}{% if include.css %}
   <!-- Custom styles for this template -->
   <link href="{{site.baseurl}}/{{include.css}}" rel="stylesheet">
   {% endif %}
