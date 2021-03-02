@@ -3,27 +3,27 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: portfolio
-permalink: /portfolio/
+permalink: /services/portfolio/
 jumbotron-heading: We Publish Your Portfolio
 jumbotron-lead: Your customers will be able to view your recent projects from any smart phone device.
 projects: 
-  - thumbnail: holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Project 1 Thumbnail
-    title: Project 1
-    description: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+  - thumbnail: /images/logo-design.jpg
+    title: Illustration Logo
+    description: A client with a construction company we designed a hand crafted and illustrated art style with a rustic feel.
     url: "#"
-    category: Category 1
+    category: Logo Design
 
-  - thumbnail: holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Project 2 Thumbnail
-    title: "Project 2"
-    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+  - thumbnail: /images/mobile-website.jpg
+    title: Mobile Website
+    description: We provide a mobile website solution for small business owners who have customers who use their smart phone devices.
     url: "#"
-    category: Category 1
+    category: Web Design
 
-  - thumbnail: holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Project 3 Thumbnail
-    title: "Project 3"
-    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+  - thumbnail: /images/neatnik-cleaning-logo.png
+    title: ""
+    description: A new local small business needed a branding solution for their marketing. We designed a logo for them with a custom cartoon mascot. 
     url: "#"
-    category: Category 1
+    category: Logo Design
 
   - thumbnail: holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Project 4 Thumbnail
     title: "Project 4"

@@ -3,7 +3,8 @@ main:
     title: Home
   - permalink: /about/
     title: About
-  - permalink: /portfolio/
-    title: Portfolio Publishing
-  - permalink: /contact/
-    title: Contact Us
+  - permalink: "#"
+    title: Services
+    dropdown: 
+    - permalink: /services/portfolio/
+      title: Portfolio Publishing

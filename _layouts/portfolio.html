@@ -18,16 +18,21 @@
           {{ content }}
           <div class="row">
             {% for project in page.projects %}
-            <div class="col-md-4">
+            <div class="col-md-4 d-flex align-items-stretch">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="{{project.thumbnail}}" alt="Card image cap">
+                <a href="{{site.baseurl}}{{project.thumbnail}}" data-lightbox="project">
+                  <div class="card-img-top" 
+                    style="height: 225px; background-image: url({{site.baseurl}}{{project.thumbnail}}); background-position: center; background-size: cover;"></div>
+                </a>
                 <div class="card-body">
                   <p class="card-text">{{project.description}}</p>
+                </div>
+                <div class="card-footer">
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
-                    <small class="text-muted">{{project.category}}</small>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View Project</button>
+                  </div>
+                  <small class="text-muted">{{project.category}}</small>
                   </div>
                 </div>
               </div>
