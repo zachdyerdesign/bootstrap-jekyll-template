@@ -3,8 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: portfolio
-jumbotron-heading: Jumbotron Heading
-jumbotron-lead: This is the Jumbotron lead text with a short description about whats on the page so folks don't simply skip over it entirely.
+jumbotron-heading: Rock Solid Web Services
+jumbotron-lead: SolidCore Services provides web solutions for small businesses looking to market their business online safely and securely.
+jumbotron-bg-image: /images/mountains.jpg
+jumbotron:
+  darkmode: false
 ---
 
 This is the home page.

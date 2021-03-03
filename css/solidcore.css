@@ -2,3 +2,13 @@
 html {
     scroll-behavior: smooth;
 }
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+}
+.sc-bg-lighten {
+    background-blend-mode: lighten;
+}
+.sc-bg-multiply {
+    background-blend-mode: multiply;
+}

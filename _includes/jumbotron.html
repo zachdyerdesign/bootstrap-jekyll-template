@@ -1,7 +1,7 @@
-<section class="jumbotron text-center">
+<section class="jumbotron text-center{% if page.jumbotron.darkmode %} bg-dark text-white sc-bg-multiply{% else %} sc-bg-lighten{% endif %}"{% if page.jumbotron-bg-image %} style="background-image: url({{ site.baseurl }}{{ page.jumbotron-bg-image }})"{% endif %}>
     <div class="container">
       <h1 class="jumbotron-heading">{{ page.jumbotron-heading }}</h1>
-      <p class="lead text-muted">{{page.jumbotron-lead}}</p>
+      <p class="lead">{{page.jumbotron-lead}}</p>
       <p>
         {% for button in page.jumbotron-buttons %}
         <a href="{{button.url}}" class="btn {{ button.type }} my-2">{{ button.title }}</a>
